@@ -13,7 +13,7 @@ public class MainTest
         System.out.println(beverage.getDescription()+" $"+beverage.cost());
 
         System.out.println("---------------------");
-        
+
         Beverage beverage1 = new DarkRoast();
         beverage1 = new Mocha(beverage1);
         beverage1 = new Mocha(beverage1);
