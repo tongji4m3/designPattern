@@ -1,4 +1,6 @@
-package WrapperPattern;
+package WrapperPattern.decorator;
+
+import WrapperPattern.Beverage;
 
 //调料装饰者
 public abstract class CondimentDecorator extends Beverage
