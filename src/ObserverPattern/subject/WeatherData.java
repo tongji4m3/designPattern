@@ -1,6 +1,7 @@
-package ObserverPattern;
+package ObserverPattern.subject;
 
-import java.security.PrivateKey;
+import ObserverPattern.observer.Observer;
+
 import java.util.ArrayList;
 import java.util.List;
 

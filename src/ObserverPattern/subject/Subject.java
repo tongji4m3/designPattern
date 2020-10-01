@@ -1,4 +1,6 @@
-package ObserverPattern;
+package ObserverPattern.subject;
+
+import ObserverPattern.observer.Observer;
 
 public interface Subject
 {
