@@ -1,4 +1,6 @@
-package FactoryPattern;
+package FactoryPattern.FactoryMethod.creator;
+
+import FactoryPattern.FactoryMethod.product.Pizza;
 
 public abstract class PizzaStore
 {

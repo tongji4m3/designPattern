@@ -1,4 +1,7 @@
-package FactoryPattern;
+package FactoryPattern.FactoryMethod.creator;
+
+import FactoryPattern.FactoryMethod.product.ChicagoStyleCheesePizza;
+import FactoryPattern.FactoryMethod.product.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore
 {

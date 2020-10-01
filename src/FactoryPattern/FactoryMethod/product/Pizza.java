@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.FactoryMethod.product;
 
 import java.util.ArrayList;
 

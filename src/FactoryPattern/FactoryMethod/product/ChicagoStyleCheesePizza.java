@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.FactoryMethod.product;
 
 public class ChicagoStyleCheesePizza extends Pizza
 {

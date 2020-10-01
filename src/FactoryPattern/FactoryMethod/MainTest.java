@@ -1,4 +1,9 @@
-package FactoryPattern;
+package FactoryPattern.FactoryMethod;
+
+import FactoryPattern.FactoryMethod.creator.ChicagoPizzaStore;
+import FactoryPattern.FactoryMethod.creator.NYPizzaStore;
+import FactoryPattern.FactoryMethod.creator.PizzaStore;
+import FactoryPattern.FactoryMethod.product.Pizza;
 
 public class MainTest
 {
