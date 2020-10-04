@@ -7,8 +7,9 @@ import java.util.Arrays;
 
 public class RemoteControl
 {
-    Command[] onCommands;
-    Command[] offCommands;
+    private Command[] onCommands;
+    private Command[] offCommands;
+    private Command undoCommand;//用于实现撤销操作
 
     public RemoteControl()
     {
@@ -21,6 +22,7 @@ public class RemoteControl
             onCommands[i] = noCommand;
             offCommands[i] = noCommand;
         }
+        undoCommand = noCommand;
     }
 
     //留待以后扩展指令
@@ -33,10 +35,17 @@ public class RemoteControl
     public void onButtonWasPushed(int slot)
     {
         onCommands[slot].execute();
+        undoCommand = onCommands[slot];
     }
     public void offButtonWasPushed(int slot)
     {
         offCommands[slot].execute();
+        undoCommand = offCommands[slot];
+    }
+
+    public void undoButtonWasPushed()
+    {
+        undoCommand.undo();
     }
 
     @Override
